@@ -1,0 +1,71 @@
+<!-- Geographic HTML Page 1-->
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+<title>Quiz Knowlage</title>
+<link href="styles.css" rel="stylesheet">
+<script src="main.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.0.js"></script>
+
+</head>
+<body>
+
+<h1 class="h"> Test your Geographic knowledge</h1>
+    
+  
+<form id="quiz" name="quiz">
+	
+	<p>What is the Capital city of Austria </p>
+	
+    <input type="radio" id="mc" name="Q1" value="Vienne">Vienne<br>
+    <input type="radio" id="mc" name="Q1" value="Tunis">Tunis<br>
+    <input type="radio" id="mc" name="Q1" value="Canada">Canada<br>
+
+    <div id="after_click">
+        <p id="msg4"></p>
+    </div>
+
+
+	<p>What is the Capital city of Irlande</p>
+
+    <input type="radio" id="mc" name="Q2" value="Toronto">Toronto<br>
+    <input type="radio" id="mc" name="Q2" value="Johannesburg">Johannesburg<br>
+    <input type="radio" id="mc" name="Q2" value="Dublin">Dublin<br>
+    
+    <div id="after_click">
+        <p id="msg5"></p>
+    </div>
+
+
+    <p>What is the Capital city of Nepal</p>
+
+    <input type="radio" id="mc" name="Q3" value="Katmandou">Katmandou<br>
+    <input type="radio" id="mc" name="Q3" value="Athènes">Athènes<br>
+    <input type="radio" id="mc" name="Q3" value="New York">New York<br>
+    <div id="after_click">
+        <p id="msg6"></p>
+    </div>
+</br>
+    <input id="button" type="button" value="Done!!" onclick="check();">
+
+
+
+    <!--Building a div box for messages-->
+</form>
+<div id="after_click">
+	<p id="msg"></p>
+<p id="correct_answers"></p>
+</div>
+<!--Building a button to get u back to zero point (restart) -->
+
+<button id="button" onclick="myFunction()">Restart</button>
+<!--Building another div with same id(after_click) so i can control all messages to appear just after user click on done button -->
+<div id="after_click">
+    <p id="m"></p>
+</div>
+
+
+
+</body>
+</html>

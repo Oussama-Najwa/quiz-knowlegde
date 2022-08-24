@@ -1,0 +1,76 @@
+<!-- Music HTML Page-->
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+<title>Quiz Game</title>
+
+
+<link rel="stylesheet" href="styles.css">
+
+<script src="main.js"></script>
+
+</head>
+<body>
+
+<h1> Test your Music knowledge</h1>
+   
+
+<form id="quiz3" name="quiz3">
+    
+    <p>what's the real name of 50 cent</p>
+    
+    <input type="radio" id="mc" name="QU1" value="Aubrey Drake Graham">Aubrey Drake Graham<br>
+    <input type="radio" id="mc" name="QU1" value="Curtis James Jackson">Curtis James Jackson<br>
+    <input type="radio" id="mc" name="QU1" value="Donald trump">Donald Trump<br>
+    
+    <div id="after_click">
+        <p id="msg1"></p>
+    </div>
+
+    <p> who is the singer of dance monkey</p>
+
+    <input type="radio" id="mc" name="QU2" value="Oum kalthoum">Oum kalthoum<br>
+    <input type="radio" id="mc" name="QU2" value="Madonna">Madonna<br>
+    <input type="radio" id="mc" name="QU2" value="Tones and I">Tones and I<br>
+     <input type="radio" id="mc" name="QU2" value="Goerge wassouf">Goerge wassouf<br>
+     
+
+     <div id="after_click">
+        <p id="msg2"></p>
+    </div>
+
+    <p>Which country is Ya Lili singer Balti from?</p>
+
+    <input type="radio" id="mc" name="QU3" value="Tunisia">Tunisia<br>
+    <input type="radio" id="mc" name="QU3" value="Italy">Italy<br>
+    <input type="radio" id="mc" name="QU3" value="Algeria">Algeria<br>
+     <!--Building a div box related to another divs with same id so i can show the wright answer when the user answer is wrong  -->
+
+    <div id="after_click">
+        <p id="msg3"></p>
+    </div>
+</br>
+    <input id="button" type="button" value="Done!!" onclick="check_3();">
+</form>
+
+    <!--Building a div box for messages to show score and congrat the efforts -->
+
+<div id="after_click">
+    <p id="msg"></p>
+<p id="correct_answers"></p>
+
+</div>
+<!--Building a button to get u back to zero point (restart) -->
+<button id="button" onclick="myFunction()">Restart</button>
+
+<!--Building another div with same id(after_click) so i can control all messages to appear just after user click on done button -->
+<div id="after_click">
+    <p id="m"></p>
+</div>
+
+
+
+</body>
+</html>
