@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+VIC+WA+NT+Beginner&display=swap');
+body{
+    font-family: 'Nova Square', cursive;
+    font-size: 21.8px;
+    line-height: 2.8em;
+    background: #f5d532;
+}
+li{
+    list-style: none;
+}
+h1{
+    text-align: center;
+}
+#quiz{
+    width: 80%;
+    height: 600px;
+    margin: 20px auto;
+    overflow: auto;
+    border: 3px solid  black;
+    text-align: center;
+
+}
+#button{
+    width: 150px;
+    height: 76px;
+    line-height: 78px;
+    font-size: 20px;
+    font-family: 'Bebas Neue', sans-serif;
+    background: linear-gradient(45deg, transparent 5%, white 5%);
+  border: 0;
+  color: black;
+}
+.bt{
+    width: 150px;
+    height: 76px;
+    line-height: 78px;
+    font-size: 20px;
+    font-family: 'Bebas Neue', sans-serif;
+    background: linear-gradient(45deg, transparent 5%, white 5%);
+  border: 0;
+  color: black;
+}
+.a{
+    width: 80%;
+    height: 600px;
+    margin: 20px auto;
+    overflow: auto;
+    border: 3px solid  black;
+    text-align: center;
+
+
+}
+#quiz3{
+   width: 80%;
+    height: 600px;
+    margin: 20px auto;
+    overflow: auto;
+    border: 3px solid  black;
+    text-align: center; 
+}
+#quiz2{
+    width: 80%;
+    height: 600px;
+    margin: 20px auto;
+    overflow: auto;
+    border: 3px solid  black;
+    text-align: center;
+
+}
+.pull-left{
+    float:left;
+}
+.pull-right{
+    float: right;
+}
+header{
+    background: white;
+    color: black;
+    padding: 5px 10px;
+    overflow: auto;
+    font-size: 25px;
+}
+footer{
+     background: white;
+    color: black;
+    padding: 5px 10px;
+    overflow: auto;
+    font-size: 25px;
+}
+@media only screen and (max-width: 900px){
+    .container{
+        width: 90%;
+    }
+}
+
+
+
+
+#submit{
+    width: 150px;
+    height: 76px;
+    line-height: 78px;
+    font-size: 20px;
+    font-family: 'Bebas Neue', sans-serif;
+    background: linear-gradient(45deg, transparent 5%, white 5%);
+  border: 0;
+  color: black;
+  
+}

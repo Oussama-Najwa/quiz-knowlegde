@@ -4,34 +4,33 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    font-size: 105.5%;
+    font-size: 110.5%;
     font-family: 'Nova Square', cursive;
 }
 body{
-    background: linear-gradient(yellow,white);
+    background: linear-gradient(rgb(201, 201, 79),white);
 }
 img{
-    width: 300px;
+    width: 400px;
 }
-.home-box{
-    width:500px; 
+.container{
+    width: 50%;
     margin:0 auto;
     width: 100vw;
     height: 100vh;
-    display: flex;
+    display: flow-root;
     justify-content: center;
     align-items: center;
-    max-width: 80rem;
+    max-width: 50rem;
     margin: 0 auto;
     padding: 2rem;
+    border: 3px solid  black;
+    text-align: center;
 }
 
-h1{
-    text-align: center;
-}
-p{
-    text-align: center;
-}
+
+
+
 
 .btn,
 .btn:after {
